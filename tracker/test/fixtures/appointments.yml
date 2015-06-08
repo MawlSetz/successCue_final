@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  phone_number: MyString
+  time: 2015-06-08 16:05:02
+  time_zone: MyString
+
+two:
+  user_id: 1
+  phone_number: MyString
+  time: 2015-06-08 16:05:02
+  time_zone: MyString
