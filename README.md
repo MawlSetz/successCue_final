@@ -5,5 +5,8 @@
     - once logged in, user will be directed to their habit dashboard
     - user can add, update, and delete habits
     - user can set timer on relevant tasks
+    
+## stack
+    - ruby on rails, sass, purecss, jQuery
 
 ![erd](http://i.imgur.com/THkRSWb.png)
