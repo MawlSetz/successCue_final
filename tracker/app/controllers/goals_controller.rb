@@ -26,7 +26,6 @@ class GoalsController < ApplicationController
   # POST /habits.json
   def create
     @goal = Goal.new(goal_params)
-
     respond_to do |format|
       if @goal.save
         format.html { redirect_to goals_url, notice: 'Goal was successfully created.' }
