@@ -6,6 +6,7 @@ class SessionsController < ApplicationController
 
 
   def create
+  	debugger
       @user = User.find_by(name: params[:username])
       if @user && @user.authenticate(params[:password])
           session[:user_id] = @user.id
