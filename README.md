@@ -6,4 +6,4 @@
     - user can add, update, and delete habits
     - user can set timer on relevant tasks
 
-[erd](http://i.imgur.com/THkRSWb.png)
+![erd](http://i.imgur.com/THkRSWb.png)
