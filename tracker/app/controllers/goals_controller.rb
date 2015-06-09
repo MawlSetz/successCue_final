@@ -10,6 +10,7 @@ class GoalsController < ApplicationController
   # GET /habits/1
   # GET /habits/1.json
   def show
+  	@goal = Goal.find(params[:id])
   end
 
   # GET /habits/new

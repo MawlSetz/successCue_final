@@ -1,0 +1,10 @@
+<div class="pricing-table-header">
+    <h2><%= @goal.habits %></h2>
+</div>
+<ul class="pricing-table-list">
+  <li><%= @goal.habits_desc %></li>
+  <li><%= @goal.days_completed %></li>
+</ul>
+<button class="button-choose pure-button"><%= link_to 'Edit', edit_goal_path(@goal) %></button>
+<button class="button-choose pure-button"><%= link_to 'Destroy', @goal, method: :delete, data: { confirm: 'Are you sure?' } %></button>
+</div>

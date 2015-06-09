@@ -3,12 +3,26 @@
 <head>
   <title>Tracker</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'defaults', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <!-- Google Login -->
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <!-- Load jquery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!--   Pure css -->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- stylesheet -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
 <body>
-
-<%= yield %>
-
-</body>
-</html>
+  <div class="pure-menu pure-menu-horizontal">
+    <a href="#" class="pure-menu-heading pure-menu-link">successCue</a>
+    <ul class="pure-menu-list">
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Dashboard</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Help</a></li>
+    </ul>
+</div>
+	<%= yield %>
